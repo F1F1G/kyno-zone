@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8"/>
+        <title>Kynozone</title>
+        <link href="/style/style.css" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com" rel="preconnect"/>
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+        <!-- AOS CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+        <script type="text/javascript">
+            WebFont.load({
+                google: {
+                    families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic", "Inter:regular,600,800", "Source Code Pro:regular,600,800", "Urbanist:regular,500,600"]
+                }
+            });
+        </script>
+
+        <link href="/img/logo.png" rel="shortcut icon" type="image/x-icon"/>
+        <link href="/img/logo.png" rel="apple-touch-icon"/>
+</head>
+
+<body>
+
+<!--Sekcja nawigacji-->
+            <header role="banner" class="header-wrapper">
+              <div class="container-default">
+                <div class="header-container-wrapper">
+                  <div class="logo-wrapper _94px">
+                    <a href="/" class="logo-link">
+                      <img src="/img/logoooo.png" alt="Logo Kynozone" />
+                    </a>
+                  </div>
+
+                  <div class="nav-menu-middle flex-growth">
+                    <nav role="navigation" class="nav-menu-wrapper">
+                        <button class="close-mobile-menu" aria-label="Zamknij menu">×</button>
+                      <ul role="list" class="list-nav-menu">
+                        <li class="link-nav-item">
+                          <a href="/index.html" class="link">
+                            <div>Home</div>
+                          </a>
+                        </li>
+                        <li class="link-nav-item">
+                          <a href="/pages/about.html" class="link">
+                            <div>O mnie</div>
+                          </a>
+                        </li>
+                        <li class="link-nav-item">
+                          <a href="/pages/services.html" class="link">
+                            <div>Usługi</div>
+                          </a>
+                        </li>
+                        <li class="link-nav-item">
+                          <a href="/pages/contact.html" class="link">
+                            <div>Kontakt</div>
+                          </a>
+                        </li>
+                    <!--<li class="link-nav-item">
+                          <a href="#" class="link">
+                            <div>Blog</div>
+                          </a>
+                        </li> -->
+                        <li class="link-nav-item show-on-mobile">
+                          <div class="flex">
+                            <a href="/pages/contact.html" class="primary-button">
+                              <div>Umów konsultację</div>
+                            </a>
+                          </div>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+
+                  <div class="nav-menu-right-side">
+                    <div class="mobile-menu-overlay"></div>
+                    <div class="buttons-row nav-menu-hidden-on-mobile">
+                      <a href="/pages/contact.html" class="primary-button">
+                        <div>Umów konsultację</div>
+                      </a>
+                    </div>
+
+                    <div class="hamburger-menu">
+                      <div class="hamburger-menu-flex">
+                        <div class="hamburger-menu-line top"></div>
+                        <div class="hamburger-menu-line middle"></div>
+                        <div class="hamburger-menu-line bottom"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </header>
+
+<!--Sekcja głównego baneru-->
+            <section class="position-relative" class="hero-section" data-aos="fade-up" data-aos-duration="1000">
+                <div class="w-layout-blockcontainer container-default w-container">
+                    <div class="inner-section home-v2-inner-section">
+                    <div class="w-layout-grid grid-2-columns home-v2-hero-grid">
+                        <div>
+                        <h1 class="display-10 strong mg-bottom-medium">
+                          Zrozum swojego pupila<br />i żyj w harmonii
+                          </h1>
+                        <div class="inner-container _476px _100-tablet">
+                            <p class="mg-bottom-default">
+                              Profesjonalna pomoc treningowa dla psów, indywidualne szkolenia, nauka sztuczek oraz zajęcia nosework. Pracujemy z pasją i wiedzą – dla dobra Twojego czworonoga.
+                            </p>
+                        </div>
+                        <div class="buttons-row left">
+                            <a href="/pages/contact.html" class="primary-button w-inline-block">
+                            <div>Umów konsultację</div>
+                            </a>
+                            <a href="/pages/services.html" class="link small hover-neutral-500 w-inline-block">
+                            <div>Zobacz wszystkie usługi</div>
+                            <div class="item-icon-right">
+                                <div class="icon-font-rounded"></div>
+                            </div>
+                            </a>
+                        </div>
+                        </div>
+                        <div class="bg-floating-image home-v2-floating-image">
+                        <img class="fit-cover _w-h-100" src="/img/bg33.png" alt="Trustworthy Vets Putting Your Pets First Image - Pet X Webflow Template"
+                            sizes="(max-width: 991px) 100vw, (max-width: 1439px) 50vw, 624px"
+                            srcset="/img/bg33.png 500w, /img/bg33.png 800w, /img/bg33.png 936w" />
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="bg-floating-content home-v2-hero-bg-floating"></div>
+            </section>
+
+<!--Sekcja usługi-->
+            <section class="section top-100px bg-section-secondary" class="hero-section" data-aos="fade-up"  data-aos-duration="1000">
+            <div class="w-layout-blockcontainer container-default w-container" class="hero-section" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                <div class="flex-horizontal space-between gap-small-flex-wrap">
+                <div class="inner-container _530px _100-tablet">
+                    <h2 class="display-8 strong mg-bottom-small title-dec">Usługi szkoleniowe</h2>
+                    <p>Pomagam psom i ich opiekunom budować zdrową relację. Oferuje wsparcie w problemach w zachowaniu, naukę podstawowego posłuszeństwa, sztuczek oraz zajęcia nosework z certyfikowanym instruktorem.</p>
+                </div>
+                <div class="align-self-bottom width-100-mbp">
+                    <div class="buttons-row left">
+                    <a href="/pages/contact.html" class="primary-button w-inline-block">
+                        <div>Umów konsultację</div>
+                    </a>
+                    <a href="/pages/services.html" class="link mid small w-inline-block">
+                        <div>Zobacz wszystkie usługi</div>
+                        <div class="item-icon-right">
+                        <div class="icon-font-rounded"></div>
+                        </div>
+                    </a>
+                    </div>
+                </div>
+                </div>
+
+                <div class="mg-top-large mg-top-double-extra-large-tablet">
+                <div class="w-layout-grid grid-2-columns service-grid-2-col">
+                    <div class="card-picture _02 _w-h-100">
+                    <img src="/img/IMG_0544.png"
+                        alt="About Us Image - Pet X Webflow Template"
+                        sizes="(max-width: 991px) 100vw, 41vw"
+                        srcset="... (możesz skrócić, jeśli chcesz)"
+                        class="fit-cover _w-h-100" />
+                    </div>
+
+                    <div class="w-dyn-list">
+                    <div role="list" class="grid-2-columns w-dyn-items">
+
+                        <div role="listitem" class="w-dyn-item">
+                        <a href="/pages/services.html" class="text-decoration-none display-block w-inline-block">
+                            <div class="card _05">
+                              <div class="mg-bottom-default">
+                                <div class="flex-horizontal space-between gap-small-flex-wrap">
+                                  <div class="card-picture _01">
+                                    <img src="/img/2.png" alt="" class="card-image" />
+                                  </div>
+                                  <div class="badge secondary small">
+                                    <div class="display-1 strong">od 90 zł</div>
+                                  </div>
+                                </div>
+                              </div>
+                              <h3 class="card-heading display-5">Szkolenie posłuszeństwa</h3>
+                              <p class="text-neutral-700 mg-top-extra-small">Nauka podstawowych komend i budowanie relacji opartej na zaufaniu.</p>
+                            </div>
+                        </a>
+                        </div>
+
+                        <div role="listitem" class="w-dyn-item">
+                        <a href="/pages/services.html" class="text-decoration-none display-block w-inline-block">
+                            <div class="card _05">
+                              <div class="mg-bottom-default">
+                                <div class="flex-horizontal space-between gap-small-flex-wrap">
+                                  <div class="card-picture _01">
+                                    <img src="/img/3.png" alt="" class="card-image" />
+                                  </div>
+                                  <div class="badge secondary small">
+                                    <div class="display-1 strong">od 90 zł</div>
+                                  </div>
+                                </div>
+                              </div>
+                              <h3 class="card-heading display-5">Nauka sztuczek</h3>
+                              <p class="text-neutral-700 mg-top-extra-small">Zabawa, która rozwija psa i wzmacnia waszą relację oraz motywację psa.</p>
+                            </div>
+                        </a>
+                        </div>
+
+                        <div role="listitem" class="w-dyn-item">
+                        <a href="/pages/services.html" class="text-decoration-none display-block w-inline-block">
+                            <div class="card _05">
+                              <div class="mg-bottom-default">
+                                <div class="flex-horizontal space-between gap-small-flex-wrap">
+                                  <div class="card-picture _01">
+                                    <img src="/img/4.png" alt="" class="card-image" />
+                                  </div>
+                                  <div class="badge secondary small">
+                                    <div class="display-1 strong">od 90 zł</div>
+                                  </div>
+                                </div>
+                              </div>
+                              <h3 class="card-heading display-5">Socjalizacja szczeniąt</h3>
+                              <p class="text-neutral-700 mg-top-extra-small">Socjalizacja szczeniąt to inwestycja w spokojną przyszłość Twojego psa. Zapraszam na zajęcia, gdzie w bezpiecznych warunkach Twój szczeniak nauczy się odnajdywania w codziennych sytuacjach.</p>
+                            </div>
+                        </a>
+                        </div>
+
+
+                        <div role="listitem" class="w-dyn-item">
+                        <a href="/pages/services.html" class="text-decoration-none display-block w-inline-block">
+                            <div class="card _05">
+                                    <div class="mg-bottom-default">
+                                      <div class="flex-horizontal space-between gap-small-flex-wrap">
+                                        <div class="card-picture _01">
+                                          <img src="/img/1.png" alt="" class="card-image" />
+                                        </div>
+                                        <div class="badge secondary small">
+                                          <div class="display-1 strong">od 90 zł</div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <h3 class="card-heading display-5">Trening Nosework</h3>
+                                    <p class="text-neutral-700 mg-top-extra-small">Sport dla każdego psa, który rozwija naturalne zdolności węszenia, buduje pewność siebie i pogłębia relację z opiekunem. To świetna forma aktywności dla każdego psa!</p>
+                                  </div>
+                            </a>
+                        </div>
+
+                    </div>
+                    </div>
+                </div>
+                </div>
+
+            </div>
+            </section>
+
+<!--Sekcja O mnie-->
+            <section class="bottom-130px bg-section-secondary">
+            <div class="container-default w-container" class="hero-section" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                <h2 class="display-8 strong mg-bottom-small title-dec">O mnie</h2>
+
+                <div class="grid-2-columns _1-col-tablet gap-row-small">
+                <div class="inner-container _590px _100-tablet">
+                    <p>
+                    Nazywam się Oliwia kosiorowska, jestem inżynierem kynologii i absolwentką Zachodniopomorskiego Uniwersytetu Technologicznego w Szczecinie.
+                    Jestem instruktorem szkolenia psów z uprawnieniami placówki kształcenia ustawicznego oraz certyfikowanym instruktorem nosework (Nosework Polska).
+
+
+                    </p>
+                </div>
+                <div class="inner-container _590px _100-tablet">
+                    <p>
+                    W mojej pracy stawiam na indywidualne podejście i budowanie silnej relacji człowiek–pies.
+                    Niezależnie od tego, czy dopiero zaczynasz swoją przygodę z psem, czy chcesz rozwinąć jego umiejętności – chętnie pomogę Wam stworzyć zgrany duet.
+                    </p>
+                </div>
+                </div>
+
+                <div class="grid-2-columns gap-medium mg-top-medium">
+                <div class="card-picture _02">
+                    <img
+                        src="/img/IMG_1696.png"
+                        alt="Szkolenie psa na świeżym powietrzu"
+                        sizes="(max-width: 767px) 100vw, 50vw"
+                        srcset="
+                        /img/IMG_1696.png 500w,
+                        /img/IMG_1696.png 800w,
+                        /img/IMG_1696.png 1200w
+                        "
+                        class="fit-cover _w-h-100"
+                    />
+                </div>
+                <div class="card-picture _02">
+                    <img
+                        src="/img/dog.png"
+                        alt="Szkolenie psa na świeżym powietrzu"
+                        sizes="(max-width: 767px) 100vw, 50vw"
+                        srcset="
+                        /img/dog.png 500w,
+                        /img/dog.png 800w,
+                        /img/dog.png 1200w
+                        "
+                        class="fit-cover _w-h-100"
+                    />
+                </div>
+                </div>
+
+
+
+
+            </div>
+            </section>
+
+<!--Sekcja licznik-->
+<!--
+        <section class="section bottom-130px bg-section-secondary hr-divider">
+            <div class="container-default w-container" class="hero-section" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                <div class="grid-auto about-stats-grid">
+                <div>
+                    <div class="display-10 strong text-titles">
+                    <span class="counter" data-target="254">0</span><span class="text-color-secondary-200">+</span>
+                    </div>
+                    <div class="mg-top-tiny">
+                    <div class="display-5 strong text-neutral-600">Zadowolonych opiekunów</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="display-10 strong text-titles">
+                    <span class="counter" data-target="80">0</span><span class="text-color-secondary-300">+</span>
+                    </div>
+                    <div class="mg-top-tiny">
+                    <div class="display-5 strong text-neutral-600">Przeprowadzonych konsultacji</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="display-10 strong text-titles">
+                    <span class="counter" data-target="360">0</span><span class="text-color-secondary-100">+</span>
+                    </div>
+                    <div class="mg-top-tiny">
+                    <div class="display-5 strong text-neutral-600">Szczęśliwych psów</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="display-10 strong text-titles">
+                    <span class="counter" data-target="8">0</span><span class="text-color-secondary-500"> lat</span>
+                    </div>
+                    <div class="mg-top-tiny">
+                    <div class="display-5 strong text-neutral-600">Doświadczenia z psami</div>
+                    </div>
+                </div>
+                </div>
+
+            </div>
+        </section>
+-->
+
+            
+ <!--           
+           <section class="section bottom-126px overflow-hidden" class="hero-section" data-aos="fade-up" data-aos-duration="1000">
+            <div class="w-layout-blockcontainer container-default w-container">
+                <div class="inner-container _954px center">
+                <div class="slider-wrapper">
+
+
+                    <div>
+                    <div class="w-layout-grid grid-2-columns card-grid-2-col-02">
+                        <div class="card _04">
+                        <div class="mg-bottom-default">
+                            <img src="https://cdn.prod.website-files.com/6614055ffed6aec1f0c79429/66141f4c83d127f737654bd9_quote-icon-pet-x-webflow-template.svg" alt="Quote Icon" />
+                        </div>
+                        <div class="display-8 strong text-titles">
+                            My kitten always feels calm thanks to his loving attention.
+                        </div>
+                        <div class="mg-top-medium">
+                            <div class="w-layout-grid grid-auto---1fr gap-small">
+                            <div class="avatar-wrapper _60px">
+                                <img src="https://cdn.prod.website-files.com/6614055ffed6aec1f0c79429/661d685eb1f5e532ff70b624_matt-cannon-avatar-image-pet-x-webflow-template.png" alt="Matt Cannon Avatar" class="avatar-image circle" />
+                            </div>
+                            <div>
+                                <div class="display-3 strong text-titles">Matt Cannon</div>
+                                <div class="display-2 mid text-neutral-600">New York, NY</div>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="card-picture _02">
+                        <img src="https://cdn.prod.website-files.com/6614055ffed6aec1f0c79429/661d67c22fd0b1e84e358e16_matt-cannon-testimonial-image-pet-x-webflow-template.png" alt="Matt Cannon Testimonial" class="card-image" />
+                        </div>
+                    </div>
+                    </div>
+
+
+                    <div>
+                    <div class="w-layout-grid grid-2-columns card-grid-2-col-02">
+                        <div class="card _04">
+                        <div class="mg-bottom-default">
+                            <img src="https://cdn.prod.website-files.com/6614055ffed6aec1f0c79429/66141f4c83d127f737654bd9_quote-icon-pet-x-webflow-template.svg" alt="Quote Icon" />
+                        </div>
+                        <div class="display-8 strong text-titles">
+                            The vet's advice helped control my pet's allergies.
+                        </div>
+                        <div class="mg-top-medium">
+                            <div class="w-layout-grid grid-auto---1fr gap-small">
+                            <div class="avatar-wrapper _60px">
+                                <img src="https://cdn.prod.website-files.com/6614055ffed6aec1f0c79429/661d685fa72e9a7f2c462d5b_andy-smith-avatar-image-pet-x-webflow-template.png" alt="Andy Smith Avatar" class="avatar-image circle" />
+                            </div>
+                            <div>
+                                <div class="display-3 strong text-titles">Andy Smith</div>
+                                <div class="display-2 mid text-neutral-600">San Francisco, CA</div>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="card-picture _02">
+                        <img src="https://cdn.prod.website-files.com/6614055ffed6aec1f0c79429/661d67c143d564a2177860c0_andy-smith-testimonial-image-pet-x-webflow-template.png" alt="Andy Smith Testimonial" class="card-image" />
+                        </div>
+                    </div>
+                    </div>
+
+
+                    <div>
+                    <div class="w-layout-grid grid-2-columns card-grid-2-col-02">
+                        <div class="card _04">
+                        <div class="mg-bottom-default">
+                            <img src="https://cdn.prod.website-files.com/6614055ffed6aec1f0c79429/66141f4c83d127f737654bd9_quote-icon-pet-x-webflow-template.svg" alt="Quote Icon" />
+                        </div>
+                        <div class="display-8 strong text-titles">
+                            We have found our favorite veterinarian
+                        </div>
+                        <div class="mg-top-medium">
+                            <div class="w-layout-grid grid-auto---1fr gap-small">
+                            <div class="avatar-wrapper _60px">
+                                <img src="https://cdn.prod.website-files.com/6614055ffed6aec1f0c79429/661d685eb1f5e532ff70b624_matt-cannon-avatar-image-pet-x-webflow-template.png" alt="Matt Cannon Avatar" class="avatar-image circle" />
+                            </div>
+                            <div>
+                                <div class="display-3 strong text-titles">Matt Cannon</div>
+                                <div class="display-2 mid text-neutral-600">New York, NY</div>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="card-picture _02">
+                        <img src="https://cdn.prod.website-files.com/6614055ffed6aec1f0c79429/661d67c22fd0b1e84e358e16_matt-cannon-testimonial-image-pet-x-webflow-template.png" alt="Matt Cannon Testimonial" class="card-image" />
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </section>
+-->
+
+
+
+<!--Sekcja formularza CTA-->
+<section class="section top-100px " class="hero-section" data-aos="fade-up" data-aos-duration="1000">
+  <div class="container-default">
+    <div class="cta-section _01">
+      <div class="grid-2-columns">
+        <div class="grid-right">
+          <h2 class="display-9 semibold">Umów konsultację już dziś!</h2>
+          <div class="mg-top-default mg-bottom-default">
+            <p>
+              Oferujemy indywidualne podejście, sprawdzone metody i realną pomoc w rozwiązaniu problemów Twojego psa.
+            </p>
+            <ul class="benefits-list">
+                <li>✔️ Konsultacje stacjonarne lub dojazd do klienta</li>
+                <li>✔️ Ponad 4 lata doświadczenia</li>
+                <li>✔️ Dopasowane plany treningowe</li>
+                <li>✔️ Własny plac szkoleniowy</li>
+            </ul>
+                <p><strong>Tylko kilka wolnych terminów tygodniowo!</strong></p>
+          </div>
+          <div class="buttons-row left">
+            <a href="/pages/contact.html" class="primary-button">
+              <div>Umów konsultację</div>
+            </a>
+          </div>
+        </div>
+        <div class="floating-image cta-image-01">
+          <img
+            src="https://cdn.prod.website-files.com/6614055ffed6aec1f0c79429/6616cdfd5b17906a8ae560ff_schedule-your-appointment-today-image-pet-x-webflow-template.png"
+            alt="Schedule Your Appointment Today Image"
+            class="fit-cover _w-h-100"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--Sekcja ...-->
+<!--
+            <section class="section bg-section-secondary" class="hero-section" data-aos="fade-up" data-aos-duration="1000">
+                <div class="w-layout-blockcontainer container-default w-container">
+                    <div data-w-id="89394c73-8ce6-a475-3214-de36e19a8ae3" style="-webkit-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="text-center">
+                        <h2 class="display-8 mg-bottom-default">Our vets</h2>
+                    </div>
+                    <div class="mg-bottom-double-extra-large w-dyn-list">
+                        <div role="list" class="grid-2-columns _1-col-tablet gap-medium w-dyn-items">
+                            <div role="listitem" class="w-dyn-item">
+                                <a data-w-id="429e4647-4929-70ab-d9b7-508157d67527" style="opacity:0" href="/vets/john-carter" class="text-decoration-none display-block w-inline-block">
+                                    <div class="card _03">
+                                        <div class="w-layout-grid grid-2-columns card-grid-2-col-01">
+                                            <div class="card-picture _02">
+                                                <img src="https://cdn.prod.website-files.com/6614055ffed6aec1f0c7945b/661441e100287fb92fd82391_john-carter-avatar-image-pet-x-webflow-template.png" alt="" class="card-image"/>
+                                            </div>
+                                            <div id="w-node-_969ce0f4-7c45-5096-7384-bdaba6101cb6-a6101cb2" class="our-vets-card-col-right">
+                                                <div>
+                                                    <div class="our-vets-card-title-container">
+                                                        <h3 class="card-heading display-5">John Carter</h3>
+                                                        <div class="display-3 mid text-neutral-500">Veterinarian</div>
+                                                    </div>
+                                                    <p class="text-neutral-700">Lorem ipsum dolor sit ameteris consectetur adipiselit sed dome eiusmod tempor incididunt utir labore dolore magna aliqua.</p>
+                                                </div>
+                                                <div class="flex-horizontal justify-end">
+                                                    <div class="secondary-button-icon card-arrow">
+                                                        <div class="icon-font-rounded arrow-diagonal-up"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div role="listitem" class="w-dyn-item">
+                                <a data-w-id="429e4647-4929-70ab-d9b7-508157d67527" style="opacity:0" href="/vets/lilly-woods" class="text-decoration-none display-block w-inline-block">
+                                    <div class="card _03">
+                                        <div class="w-layout-grid grid-2-columns card-grid-2-col-01">
+                                            <div class="card-picture _02">
+                                                <img src="https://cdn.prod.website-files.com/6614055ffed6aec1f0c7945b/661441c72dda01d287310135_lilly-woods-avatar-image-pet-x-webflow-template.png" alt="" class="card-image"/>
+                                            </div>
+                                            <div id="w-node-_969ce0f4-7c45-5096-7384-bdaba6101cb6-a6101cb2" class="our-vets-card-col-right">
+                                                <div>
+                                                    <div class="our-vets-card-title-container">
+                                                        <h3 class="card-heading display-5">Lilly Woods</h3>
+                                                        <div class="display-3 mid text-neutral-500">Veterinarian</div>
+                                                    </div>
+                                                    <p class="text-neutral-700">Lorem ipsum dolor sit ameteris consectetur adipiselit sed dome eiusmod tempor incididunt utir labore dolore magna aliqua.</p>
+                                                </div>
+                                                <div class="flex-horizontal justify-end">
+                                                    <div class="secondary-button-icon card-arrow">
+                                                        <div class="icon-font-rounded arrow-diagonal-up"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-w-id="6f0be90c-00eb-090e-d4b7-a3b06ce6bdad" style="opacity:0" class="buttons-row">
+                        <a id="w-node-e9da5fd6-ab44-5b2f-81ad-6e5f36bfab9c-36bfab9c" href="/company-pages/contact-v1" class="primary-button w-inline-block">
+                            <div>Book an appointment</div>
+                        </a>
+                        <div class="center-content---mbp">
+                            <a id="w-node-fe17d480-09df-2e68-4c77-a663aed6b02b-aed6b02b" data-w-id="fe17d480-09df-2e68-4c77-a663aed6b02b" href="/company-pages/vets" class="link mid small w-inline-block">
+                                <div>Browse all vets</div>
+                                <div class="item-icon-right">
+                                    <div class="icon-font-rounded"></div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+-->
+
+<!--Sekcja social media-->
+            <section class="section bg-section-secondary" class="hero-section" data-aos="fade-up" data-aos-duration="1000">
+                <div class="w-layout-blockcontainer container-default w-container">
+                    <div>
+                        <div class="w-layout-grid social-media-grid-02">
+                            <a id="w-node-_985310e0-9e56-4f47-b317-e596604fafc7-604fafc5" data-w-id="985310e0-9e56-4f47-b317-e596604fafc7" href="https://www.instagram.com/kyno.zone/" target="_blank" class="social-media-link-large video-link w-inline-block">
+                                <div class="social-media-video w-background-video w-background-video-atom">
+                                    <video autoplay loop muted playsinline class="fit-cover" data-object-fit="cover">
+                                        <source src="/img/movie.mp4" type="video/mp4" />
+                                    </video>
+                                    <noscript>
+                                        <style>
+                                            [data-wf-bgvideo-fallback-img] {
+                                                display: none;
+                                            }
+
+                                            @media (prefers-reduced-motion: reduce) {
+                                                [data-wf-bgvideo-fallback-img] {
+                                                    position: absolute;
+                                                    z-index: -100;
+                                                    display: inline-block;
+                                                    height: 100%;
+                                                    width: 100%;
+                                                    object-fit: cover;
+                                                }
+                                            }
+                                        </style>
+                                    </noscript>
+                                </div>
+                                <div class="social-media-overlay">
+                                    <div class="flex-vertical text-center">
+                                        <div class="social-media-link-logo-container">
+                                            <div class="mg-bottom-default">
+                                                <img src="/img/ig.svg" alt="IG Icon"/>
+                                            </div>
+                                        </div>
+                                        <div class="link light">
+                                            <div>Obserwuj nas na</div>
+                                            <div class="item-icon-right">
+                                                <div class="icon-font-rounded"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div id="w-node-_985310e0-9e56-4f47-b317-e596604fafd8-604fafc5" data-w-id="985310e0-9e56-4f47-b317-e596604fafd8">
+                                <h2 class="display-8 mg-bottom-extra-small title-dec">Obserwuj nas na</h2>
+                                <div class="inner-container _628px _100-tablet">
+                                    <p class="mg-bottom-default">Zaglądaj na nasze profile, gdzie dzielimy się poradami, nagraniami z treningów oraz codziennym życiem z psami. Edukacja, inspiracja i sporo uśmiechu – bądź z nami na bieżąco!</p>
+                                </div>
+                                <div class="flex-horizontal _4-buttons-flex-container">
+                                    <a data-w-id="985310e0-9e56-4f47-b317-e596604fafe0" href="https://www.facebook.com/profile.php?id=61573740024975" target="_blank" class="tertiary-button small width-100 w-inline-block">
+                                        <div>Facebook</div>
+                                        <div class="item-icon-right">
+                                            <div class="icon-font-rounded"></div>
+                                        </div>
+                                    </a>
+                                    <a data-w-id="985310e0-9e56-4f47-b317-e596604fafe6" href="https://www.instagram.com/kyno.zone/" target="_blank" class="tertiary-button small width-100 w-inline-block">
+                                        <div>Instagram</div>
+                                        <div class="item-icon-right">
+                                            <div class="icon-font-rounded"></div>
+                                        </div>
+                                    </a>
+
+                                </div>
+                            </div>
+                            <a data-w-id="985310e0-9e56-4f47-b317-e596604faff8" href="https://www.facebook.com/photo?fbid=122099510840791334&set=a.122095017584791334" target="_blank" class="social-media-link-large w-inline-block">
+                                <img src="/img/social.jpg" alt="Dog training social media" sizes="(max-width: 780px) 100vw, 780px" srcset="/img/social.jpg 500w, /img/social.jpg 780w" class="fit-cover _w-h-100"/>
+                                <div class="social-media-overlay">
+                                    <div class="flex-vertical text-center">
+                                        <div class="social-media-link-logo-container-fb">
+                                            <img src="/img/fb.png" alt="facebook Icon"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a data-w-id="985310e0-9e56-4f47-b317-e596604faffe" href="https://www.instagram.com/kyno.zone/" target="_blank" class="social-media-link-large w-inline-block">
+                                <img src="/img/social2.png" alt="Dog training social media" sizes="(max-width: 812px) 100vw, 812px" srcset="/img/social2.png 500w, /img/social2.png 812w" class="fit-cover _w-h-100"/>
+                                <div class="social-media-overlay">
+                                    <div class="flex-vertical text-center">
+                                        <div class="social-media-link-logo-container">
+                                            <img src="/img/ig.svg" alt="Instagram Icon"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+<!--Sekcja bloga-->
+<!--
+            <section class="section bg-section-secondary">
+                <div class="w-layout-blockcontainer container-default w-container">
+                    <div data-w-id="d302e029-7bf8-7d4e-ae5d-e6fdab795858" style="-webkit-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="flex-horizontal space-between gap-small-flex-wrap">
+                        <h2 class="display-8 strong">Browse articles &amp;news</h2>
+                        <a id="w-node-fe17d480-09df-2e68-4c77-a663aed6b02b-aed6b02b" data-w-id="fe17d480-09df-2e68-4c77-a663aed6b02b" href="/blog-pages/blog-v2" class="link mid small w-inline-block">
+                            <div>Browse all posts</div>
+                            <div class="item-icon-right">
+                                <div class="icon-font-rounded"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="mg-top-extra-large w-dyn-list">
+                        <div role="list" class="grid-3-columns _1-col-tablet gap-col-medium-row-large w-dyn-items">
+                            <div role="listitem" class="w-dyn-item">
+                                <a data-w-id="057d44fc-673a-0433-025d-351b5f10a68d" style="opacity:0" href="/blog-posts/senior-pet-care-how-to-keep-aging-pets-comfortable" class="text-decoration-none display-block w-inline-block">
+                                    <div class="w-layout-grid grid-1-column">
+                                        <div class="card-picture _02">
+                                            <img src="https://cdn.prod.website-files.com/6614055ffed6aec1f0c7945b/6614580cc18c160635dbd927_senior-pet-care-small-image-pet-x-webflow-template.jpg" alt="Senior pet care: how to keep aging pets comfortable" sizes="(max-width: 991px) 100vw, 33vw" srcset="https://cdn.prod.website-files.com/6614055ffed6aec1f0c7945b/6614580cc18c160635dbd927_senior-pet-care-small-image-pet-x-webflow-template-p-500.jpg 500w, https://cdn.prod.website-files.com/6614055ffed6aec1f0c7945b/6614580cc18c160635dbd927_senior-pet-care-small-image-pet-x-webflow-template-p-800.jpg 800w, https://cdn.prod.website-files.com/6614055ffed6aec1f0c7945b/6614580cc18c160635dbd927_senior-pet-care-small-image-pet-x-webflow-template.jpg 1208w" class="card-image"/>
+                                            <div class="badge-position-absolute _01">
+                                                <div class="badge secondary">
+                                                    <div style="background-color:#ffa0ea" class="dot"></div>
+                                                    <div class="display-2 mid">Resources</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h3 class="card-heading display-5">Senior pet care: how to keep aging pets comfortable</h3>
+                                            <div class="mg-top-medium">
+                                                <div class="flex-horizontal space-between gap-small-flex-wrap">
+                                                    <div class="display-2 mid text-neutral-600">May 7, 2024</div>
+                                                    <div class="secondary-button-icon card-arrow">
+                                                        <div class="icon-font-rounded arrow-diagonal-up"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div role="listitem" class="w-dyn-item">
+                                <a data-w-id="057d44fc-673a-0433-025d-351b5f10a68d" style="opacity:0" href="/blog-posts/summer-safety-tips-for-pets-keeping-them-cool-and-safe" class="text-decoration-none display-block w-inline-block">
+                                    <div class="w-layout-grid grid-1-column">
+                                        <div class="card-picture _02">
+                                            <img src="https://cdn.prod.website-files.com/6614055ffed6aec1f0c7945b/661457cf79bcb766b4337bd7_summer-safety-tips-for-pets-small-image-pet-x-webflow-template.jpg" alt="Summer safety tips for pets: keeping them cool and safe" sizes="(max-width: 991px) 100vw, 33vw" srcset="https://cdn.prod.website-files.com/6614055ffed6aec1f0c7945b/661457cf79bcb766b4337bd7_summer-safety-tips-for-pets-small-image-pet-x-webflow-template-p-500.jpg 500w, https://cdn.prod.website-files.com/6614055ffed6aec1f0c7945b/661457cf79bcb766b4337bd7_summer-safety-tips-for-pets-small-image-pet-x-webflow-template-p-800.jpg 800w, https://cdn.prod.website-files.com/6614055ffed6aec1f0c7945b/661457cf79bcb766b4337bd7_summer-safety-tips-for-pets-small-image-pet-x-webflow-template.jpg 1208w" class="card-image"/>
+                                            <div class="badge-position-absolute _01">
+                                                <div class="badge secondary">
+                                                    <div style="background-color:#97d4ff" class="dot"></div>
+                                                    <div class="display-2 mid">Tips</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h3 class="card-heading display-5">Summer safety tips for pets: keeping them cool and safe</h3>
+                                            <div class="mg-top-medium">
+                                                <div class="flex-horizontal space-between gap-small-flex-wrap">
+                                                    <div class="display-2 mid text-neutral-600">May 7, 2024</div>
+                                                    <div class="secondary-button-icon card-arrow">
+                                                        <div class="icon-font-rounded arrow-diagonal-up"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div role="listitem" class="w-dyn-item">
+                                <a data-w-id="057d44fc-673a-0433-025d-351b5f10a68d" style="opacity:0" href="/blog-posts/how-to-choose-the-right-pet-for-your-lifestyle" class="text-decoration-none display-block w-inline-block">
+                                    <div class="w-layout-grid grid-1-column">
+                                        <div class="card-picture _02">
+                                            <img src="https://cdn.prod.website-files.com/6614055ffed6aec1f0c7945b/661457a148f12b39f0456266_how-to-choose-the-right-pet-for-your-lifestyle-small-image-pet-x-webflow-template.jpg" alt="How to choose the right pet for your lifestyle" sizes="(max-width: 991px) 100vw, 33vw" srcset="https://cdn.prod.website-files.com/6614055ffed6aec1f0c7945b/661457a148f12b39f0456266_how-to-choose-the-right-pet-for-your-lifestyle-small-image-pet-x-webflow-template-p-500.jpg 500w, https://cdn.prod.website-files.com/6614055ffed6aec1f0c7945b/661457a148f12b39f0456266_how-to-choose-the-right-pet-for-your-lifestyle-small-image-pet-x-webflow-template-p-800.jpg 800w, https://cdn.prod.website-files.com/6614055ffed6aec1f0c7945b/661457a148f12b39f0456266_how-to-choose-the-right-pet-for-your-lifestyle-small-image-pet-x-webflow-template.jpg 1208w" class="card-image"/>
+                                            <div class="badge-position-absolute _01">
+                                                <div class="badge secondary">
+                                                    <div style="background-color:#baec7b" class="dot"></div>
+                                                    <div class="display-2 mid">News</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h3 class="card-heading display-5">How to choose the right pet for your lifestyle</h3>
+                                            <div class="mg-top-medium">
+                                                <div class="flex-horizontal space-between gap-small-flex-wrap">
+                                                    <div class="display-2 mid text-neutral-600">May 7, 2024</div>
+                                                    <div class="secondary-button-icon card-arrow">
+                                                        <div class="icon-font-rounded arrow-diagonal-up"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+-->
+
+<!--Sekcja stopka-->
+            <footer class="footer-wrapper v1">
+                <div class="w-layout-blockcontainer container-default w-container">
+                    <div class="inner-section footer-inner-section">
+                        <div class="footer-top v1 z-index-1">
+                            <div class="w-layout-grid grid-4-columns footer-grid-4-col">
+                                <div id="w-node-_3c298779-830b-1f87-128d-10c56ccddea2-57241a43" data-w-id="3c298779-830b-1f87-128d-10c56ccddea2" class="inner-container _310px _100-tablet">
+                                    <div class="mg-bottom-small">
+                                        <a href="/" class="logo-link w-inline-block">
+                                            <img src="/img/logoo.png" alt="Logo Kynozone"/>
+                                        </a>
+                                    </div>
+                                    <p>
+                                        Copyright © Kynozone | Designed by <a href="#" target="_blank" class="text-decoration-none">Filip Ojczyk</a>
+                                    </p>
+                                </div>
+                                <div data-w-id="3c298779-830b-1f87-128d-10c56ccddeac">
+                                    <h3 class="display-5 mg-bottom-default">Pozostałe strony</h3>
+                                    <div class="w-layout-grid grid-2-columns main-pages-grid-2-columns">
+                                        <ul role="list" class="list-wrapper">
+                                            <li class="list-item">
+                                                <a id="w-node-_105c6810-7fd6-918e-ea4c-0a20c47f4eeb-c47f4eeb" data-w-id="105c6810-7fd6-918e-ea4c-0a20c47f4eeb" href="/" class="link w-inline-block">
+                                                    <div>Home</div>
+                                                </a>
+                                            </li>
+                                            <li class="list-item">
+                                                <a id="w-node-_105c6810-7fd6-918e-ea4c-0a20c47f4eeb-c47f4eeb" data-w-id="105c6810-7fd6-918e-ea4c-0a20c47f4eeb" href="/pages/about.html" class="link w-inline-block">
+                                                    <div>O mnie</div>
+                                                </a>
+                                            </li>
+                                            <li class="list-item">
+                                                <a id="w-node-_105c6810-7fd6-918e-ea4c-0a20c47f4eeb-c47f4eeb" data-w-id="105c6810-7fd6-918e-ea4c-0a20c47f4eeb" href="/pages/services.html" aria-current="page" class="link w-inline-block w--current">
+                                                    <div>Usługi</div>
+                                                </a>
+                                            </li>
+                                            <li class="list-item">
+                                                <a id="w-node-_105c6810-7fd6-918e-ea4c-0a20c47f4eeb-c47f4eeb" data-w-id="105c6810-7fd6-918e-ea4c-0a20c47f4eeb" href="/pages/contact.html" class="link w-inline-block">
+                                                    <div>Kontakt</div>
+                                                </a>
+                                            </li>
+                                            <li class="list-item">
+                                                <a id="w-node-_105c6810-7fd6-918e-ea4c-0a20c47f4eeb-c47f4eeb" data-w-id="105c6810-7fd6-918e-ea4c-0a20c47f4eeb" href="/" class="link w-inline-block">
+                                                    <div>Blog</div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <ul role="list" class="list-wrapper">
+                                            <li class="list-item">
+                                                <a id="w-node-_105c6810-7fd6-918e-ea4c-0a20c47f4eeb-c47f4eeb" data-w-id="105c6810-7fd6-918e-ea4c-0a20c47f4eeb" href="#" class="link w-inline-block">
+                                                    <div>Sklep Dog Agility</div>
+                                                </a>
+                                            </li>
+                                            <li class="list-item">
+                                                <a id="w-node-_105c6810-7fd6-918e-ea4c-0a20c47f4eeb-c47f4eeb" data-w-id="105c6810-7fd6-918e-ea4c-0a20c47f4eeb" href="/" class="link w-inline-block">
+                                                    <div>Blog</div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div data-w-id="3c298779-830b-1f87-128d-10c56ccddef7">
+                                    <h3 class="display-5 mg-bottom-default">Social media</h3>
+                                    <ul role="list" class="list-wrapper">
+                                        <li class="list-item">
+                                            <a id="w-node-_105c6810-7fd6-918e-ea4c-0a20c47f4eeb-c47f4eeb" data-w-id="105c6810-7fd6-918e-ea4c-0a20c47f4eeb" href="https://www.instagram.com/kyno.zone/" class="link w-inline-block">
+                                                <div>Instagram</div>
+                                            </a>
+                                        </li>
+                                        <li class="list-item">
+                                            <a id="w-node-_105c6810-7fd6-918e-ea4c-0a20c47f4eeb-c47f4eeb" data-w-id="105c6810-7fd6-918e-ea4c-0a20c47f4eeb" href="https://www.facebook.com/profile.php?id=61573740024975" class="link w-inline-block">
+                                                <div>Facebook</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div id="w-node-_3c298779-830b-1f87-128d-10c56ccddf10-57241a43" data-w-id="3c298779-830b-1f87-128d-10c56ccddf10">
+                                    <h3 class="display-5 mg-bottom-default">Skontaktuj się</h3>
+                                    <div class="w-layout-grid grid-1-column">
+                                        <a href="https://maps.app.goo.gl/MEkyTeqhXWxgPWA7A" target="_blank" class="text-decoration-none w-inline-block">
+                                            <div class="w-layout-grid grid-auto---1fr">
+                                                <div>
+                                                    <div class="avatar-wrapper _64px">
+                                                        <img src="https://cdn.prod.website-files.com/6614055ffed6aec1f0c79429/66141f613264496a8889789a_location-purple-circle-pet-x-webflow-template.svg" alt="" id="w-node-ec5a7488-b285-a652-3f68-ab6f7cc15e2a-7cc15e29" class="avatar-image circle"/>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div>
+                                                        Polska, Śląskie <br/>44-264 Jankowice Rybnickie ul. Kościelna
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="mailto:kynozone.contact@gmail.com" class="text-decoration-none w-inline-block">
+                                            <div class="w-layout-grid grid-auto---1fr">
+                                                <div>
+                                                    <div class="avatar-wrapper _64px">
+                                                        <img src="https://cdn.prod.website-files.com/6614055ffed6aec1f0c79429/66141f6155811eeea42f7731_envelope-yellow-circle-pet-x-webflow-template.svg" alt="Envelope Yellow Circle - Pet X Webflow Template" id="w-node-ec5a7488-b285-a652-3f68-ab6f7cc15e2a-7cc15e29" class="avatar-image circle"/>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div>
+                                                        kynozone.contact@gmail.com<br/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="tel:797 899 302" class="text-decoration-none w-inline-block">
+                                            <div class="w-layout-grid grid-auto---1fr">
+                                                <div>
+                                                    <div class="avatar-wrapper _64px">
+                                                        <img src="https://cdn.prod.website-files.com/6614055ffed6aec1f0c79429/66141f49d078a83220d4ac04_phone-blue-circle-pet-x-webflow-template.svg" alt="" id="w-node-ec5a7488-b285-a652-3f68-ab6f7cc15e2a-7cc15e29" class="avatar-image circle"/>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div>+48 797 899 302</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card footer-card-wrap">
+                            <div class="card footer-card-v1">
+                                <div class="z-index-1">
+                                    <div class="w-layout-grid grid-2-columns footer-card-grid-2-col">
+                                        <div class="hidden-on-mobile-landscape"></div>
+                                        <div data-w-id="3c298779-830b-1f87-128d-10c56ccddf20" class="inner-container _636px _100-tablet">
+                                            <h2 class="display-9 strong mg-bottom-default">Twój psiak gotowy? - Skontaktuj się!</h2>
+                                            <div class="buttons-row left">
+                                                <a id="w-node-e9da5fd6-ab44-5b2f-81ad-6e5f36bfab9c-36bfab9c" href="/pages/contact.html" class="primary-button w-inline-block">
+                                                    <div>Zarezerwuj konsultację</div>
+                                                </a>
+                                                <a id="w-node-_8613752a-dccf-3d68-682b-f1c016de1eb0-16de1eb0" data-w-id="8613752a-dccf-3d68-682b-f1c016de1eb0" href="/pages/services.html" class="link mid w-inline-block">
+                                                    <div>Zobacz wszystkie usługi</div>
+                                                    <div class="item-icon-right">
+                                                        <div class="icon-font-rounded"></div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="footer-card-bg"></div>
+                            </div>
+                            <div class="footer-image-absolute _01">
+                                <img src="/img/stopka1.png" srcset="/img/stopka1.png 500w, /img/stopka1.png 786w" data-w-id="3c298779-830b-1f87-128d-10c56ccddf2c" sizes="(max-width: 767px) 100vw, (max-width: 1439px) 38vw, 524px" alt="Cat And Dog Image - Pet X Webflow Template"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+
+
+
+
+
+
+
+
+<!-- AOS JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+<!-- Twój główny plik JS -->
+<script src="/js/main.js"></script>
+            
+</body>
+</html>
